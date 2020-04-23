@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<title> Responsine page </title>
+
+	<style type="text/css">
+
+		html
+		{
+			font-size: 35px;
+		}
+
+		header h1
+		{
+			font-size: 1em;
+			padding: 10px;
+			background-color: lightgreen;
+			text-align: center;
+		}
+
+		section h1
+		{
+			font-size: 0.8em;
+			text-align: center;
+		}
+
+		section
+		{
+			width: 96%;
+			height: 400px;
+			background-color: lightblue;
+			margin: 2%;			
+		}
+
+		@media screen and (min-width: 650px)
+		{
+			section
+			{
+				width: 45%;
+				display: inline-block;
+				background-color: lime;
+				height: 300px;
+			}
+		}
+
+		@media screen and (min-width: 1200px)
+		{
+			section
+			{
+				width: 28.7%;
+				display: inline-block;
+				background-color: orange;
+			}
+		}
+
+	</style>
+	
+</head>
+
+<body>
+	<header>
+		<h1> Param's Portfolio </h1>
+	</header>
+
+	<main>	
+		<section>
+			<h1> About Me </h1>
+		</section>
+
+		<section>
+			<h1> Technical Interests </h1>			
+		</section>
+
+		<section>
+			<h1> Technologies Used</h1>
+		</section>
+		
+	</main>
+		
+	<footer>
+	</footer>
+</body>
+
+</html>
