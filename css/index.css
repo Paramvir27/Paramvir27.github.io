@@ -132,7 +132,7 @@ header i:hover
 
 .halfBcg1 a, .halfBcg2 a
 {
-	margin:25px;
+	margin:0px 0px 20px 0px;
 }
 
 .halfBcg1 i:hover, .halfBcg2 i:hover
@@ -194,6 +194,11 @@ a.button1:hover
 	{
 		transform: scale(1.2);
 	}	
+
+	.halfBcg1 a, .halfBcg2 a
+	{
+		margin:25px;
+	}
 }
 
 @media screen and (min-width: 768px)
