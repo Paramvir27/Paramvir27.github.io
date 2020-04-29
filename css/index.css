@@ -132,7 +132,7 @@ header i:hover
 
 .halfBcg1 a, .halfBcg2 a
 {
-	margin: 25px;
+	margin:25px;
 }
 
 .halfBcg1 i:hover, .halfBcg2 i:hover
@@ -154,7 +154,7 @@ a.button1
 	height: 50px;
 	width: 150px;
 	border-radius: 40px;
-	font-size: 20px;
+	font-size: 17px;
 	background:#000000;
 	color: #EEEEEE;
 	border: 0px solid;
@@ -193,9 +193,7 @@ a.button1:hover
 	.halfBcg1 i, .halfBcg2 i
 	{
 		transform: scale(1.2);
-	}
-
-	
+	}	
 }
 
 @media screen and (min-width: 768px)
@@ -228,5 +226,6 @@ a.button1:hover
 		height: 60px;
 		transform: translate(0px, -30px);
 		letter-spacing: 3px;
+		font-size: 20px;
 	}
 }
