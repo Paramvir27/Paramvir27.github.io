@@ -196,7 +196,7 @@ a.button1:hover
 
 q
 {
-	font-size: 25px;
+	font-size: 20px;
 	font-style: italic;
 	margin:20px;
 }
@@ -291,6 +291,97 @@ q
 	transition: all 0.5s;
 }
 
+.skillBcg
+{
+	background-color: #EEEEEE;
+	/*background-color: #ffa001;
+	background-image: linear-gradient(to left,#ffdd01,#ffdd01,#ff9201);
+	/*background-image: linear-gradient(to top right,#000000,#505050);*/
+	animation: 10s a2 linear infinite;
+	background-size: 200%;
+}
+
+.skillBcg h2
+{
+	color: #000000;
+	font-weight: 500;
+	letter-spacing: 4px;
+	font-size: 24px;
+}
+
+
+meter::-webkit-meter-bar {
+    background: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+
+meter::-webkit-meter-bar:hover
+{
+	box-shadow: 0px 0px 10px #EEEEEE;
+}
+
+meter
+{
+	width: 80%;
+	height: 40px;
+	border-radius: 30px;
+}
+
+
+
+meter::-webkit-meter-optimum-value {
+    background: orange;
+    background-image: linear-gradient(to right,#ffdd01,#ff9201);
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px #ff9201;
+}
+
+.high::-webkit-meter-optimum-value
+{
+    background: green;
+    background-image: linear-gradient(to right,#03f275,#03df4b);
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px #03df4b;
+}
+
+
+.skillCard
+{
+	height: 500px;
+	overflow: hidden;
+	box-sizing: border-box;
+	background: #303030;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	transition: all 0.5s;
+}
+
+.skillCard:hover
+{
+	box-shadow: 0px 0px 20px black;
+	transform: scale(1.025);
+}
+
+.skillCard p
+{
+	color: #CCCCCC;
+	letter-spacing: 2px;
+	font-size: 15px;
+}
+
+.skillCard h5
+{
+	color: #FFFFFF;
+	letter-spacing: 2px;
+	font-size: 19px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
 
 @media screen and (min-width: 576px)
 {
@@ -389,6 +480,11 @@ q
 	.dashCard:hover
 	{
 		transform:scale(1.1);
+	}
+
+	.skillBcg h2
+	{
+		font-size: 30px;
 	}
 }
 
