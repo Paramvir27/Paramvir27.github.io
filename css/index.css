@@ -311,7 +311,7 @@ q
 
 
 meter::-webkit-meter-bar {
-    background: #FFF;
+    background:rgba(255,255,255,0.3);
     border: 1px solid #CCC;
     border-radius: 30px;
     transition: all 0.5s;
@@ -319,7 +319,7 @@ meter::-webkit-meter-bar {
 
 meter::-webkit-meter-bar:hover
 {
-	box-shadow: 0px 0px 10px #EEEEEE;
+	box-shadow: 0px 0px 10px rgba(255,255,255,0.7);
 }
 
 meter
