@@ -383,6 +383,55 @@ meter::-webkit-meter-optimum-value {
 	text-transform: uppercase;
 }
 
+.edu-Line
+{
+	width: 20px;
+	height: 850px;
+	background: grey;
+	border-radius: 100px;
+	transform: translate(5px,0px);"
+}
+
+.edu-Card
+{
+	background:#EEEEEE;
+	height: 30px;
+	width: 30px;
+	border-radius: 100px;
+	box-shadow: 0px 0px 5px #EEEEEE;
+}
+
+.edu-Card > div
+{
+	transform: translate(50px,0px);
+	color: white;
+}
+
+.edu-Card > div > span:nth-child(1)
+{
+	color:#AAAAAA;
+}
+
+.edu-Card > div > span:nth-child(2)
+{
+	color:#EEEEEE;
+	font-size: 12px;
+}
+
+.edu-Card dt
+{
+	color: #AACAAA;
+}
+
+
+.active-edu-Card
+{
+	background: #03f275;
+	box-shadow: 0px 0px 20px #03f275;
+}
+
+
+
 @media screen and (min-width: 576px)
 {
 	header h1
@@ -429,6 +478,12 @@ meter::-webkit-meter-optimum-value {
 	{
 		transform: scale(1.4);
 		margin: 0px;
+	}
+
+	.edu-Card > div > span:nth-child(2)
+	{
+		color:#EEEEEE;
+		font-size: 15px;
 	}
 }
 
