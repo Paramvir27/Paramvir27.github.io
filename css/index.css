@@ -40,8 +40,8 @@ header h1
   height: 100px;
   background:rgba(238,238,238,0.95);
   z-index: 1;
-  position: sticky;
-  top:0;
+  /*position: sticky;
+  top:0;*/
 }
 
 .sticky i 						/* Nav ICONS Styling */
@@ -386,10 +386,13 @@ meter::-webkit-meter-optimum-value {
 .edu-Line
 {
 	width: 20px;
-	height: 850px;
-	background: grey;
+	height: 950px;
+	background: #666;
 	border-radius: 100px;
-	transform: translate(5px,0px);"
+	transform: translate(5px,0px);
+	background:linear-gradient(to bottom,#CCC,#666,#666,#666,#666);
+	background-size:100%;
+	background-repeat: no-repeat;
 }
 
 .edu-Card
@@ -429,6 +432,24 @@ meter::-webkit-meter-optimum-value {
 	background: #03f275;
 	box-shadow: 0px 0px 20px #03f275;
 }
+
+.eduBcg
+{
+	background: black;
+	background: radial-gradient(rgba(0,60,0,1),#000000);
+	margin-top: 100px;
+	background-size: 500%;
+	animation: a2 20s linear infinite;
+}
+
+.eduBcg h2
+{
+	color: white;
+	font-weight: 300;
+	letter-spacing: 4px;
+	font-size: 26px;
+}
+
 
 
 
