@@ -442,12 +442,51 @@ meter::-webkit-meter-optimum-value {
 	animation: a2 20s linear infinite;
 }
 
-.eduBcg h2
+.eduBcg h2, .certBcg h2
 {
 	color: white;
 	font-weight: 300;
 	letter-spacing: 4px;
 	font-size: 26px;
+}
+
+.certBcg
+{
+	background: black;
+	background: radial-gradient(rgba(200,90,0,1),#000000);
+	background-size: 500%;
+	animation: a2 20s linear infinite;
+}
+
+.certBcg .card
+{
+	border-radius: 30px;
+	height: 258px;
+	background: rgba(255,255,255,0.8);
+	/*border:2px solid rgba(255,255,255,0.8)*/
+	box-shadow: -1px -1px 0px #EEE,
+				1px 1px 0px #999;
+	transition: all 0.2s linear;
+}
+
+.certBcg .card:hover
+{
+	transform: scale(1.05);
+	box-shadow: -1px -1px 0px #FFF,
+				1px 1px 0px #999,
+				0px 0px 30px rgba(250,150,0,1),
+				0px 0px 10px white;
+	background: #EEE;
+}
+
+.certBcg .card .btn
+{
+	border-radius: 30px;	
+}
+
+.certBcg .card .btn:hover
+{
+	box-shadow: 0px 0px 10px #555;
 }
 
 
