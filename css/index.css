@@ -442,7 +442,7 @@ meter::-webkit-meter-optimum-value {
 	animation: a2 20s linear infinite;
 }
 
-.eduBcg h2, .certBcg h2
+.eduBcg h2, .certBcg h2, .aboutBcg h2
 {
 	color: white;
 	font-weight: 300;
@@ -489,6 +489,42 @@ meter::-webkit-meter-optimum-value {
 	box-shadow: 0px 0px 10px #555;
 }
 
+.certBcg .card h5
+{
+	font-size: 19px;
+}
+
+.certBcg .card h6
+{
+	font-size: 14px;
+}
+
+.aboutBcg
+{
+	background: black;
+	/*background: radial-gradient(rgba(200,0,0,1),#000000);*/
+	background-image:radial-gradient(rgb(172, 27, 103),#2a003f);
+	background-size: 500%;
+	animation: a2 20s linear infinite;
+	height: 800px;
+}
+
+.aboutBcg .card
+{
+	border-radius: 30px;
+	background: rgba(255,255,255,0.8);
+	/*border:2px solid rgba(255,255,255,0.8)*/
+	box-shadow: -1px -1px 0px #EEE,
+				1px 1px 0px #999;
+	transition: all 0.2s linear;
+}
+
+.aboutBcg img
+{
+	height: 400px;
+	width: 400px;
+}
+
 
 
 
@@ -529,7 +565,6 @@ meter::-webkit-meter-optimum-value {
 		margin:0px 0px 30px 25px;
 	}
 
-	
 }
 
 @media screen and (min-width: 768px)
@@ -603,6 +638,13 @@ meter::-webkit-meter-optimum-value {
 	}
 }
 
+@media screen and (min-width: 992px) and  (max-width: 1127px)
+{
+	.specialPadding
+	{
+		padding-left: 70px;
+	}
+}
 
 @media screen and (min-width: 1200px)
 {
