@@ -435,8 +435,8 @@ meter::-webkit-meter-optimum-value {
 
 .eduBcg
 {
-	background: black;
-	background: radial-gradient(rgba(0,60,0,1),#000000);
+	background: #000;
+	background: radial-gradient(rgba(0,90,10,1),#000000);
 	margin-top: 100px;
 	background-size: 500%;
 	animation: a2 20s linear infinite;
@@ -453,8 +453,8 @@ meter::-webkit-meter-optimum-value {
 .certBcg
 {
 	background: black;
-	background: radial-gradient(rgba(200,90,0,1),#000000);
-	background-size: 500%;
+	background: radial-gradient(rgba(240,100,0,1),#301000);
+	background-size: 300%;
 	animation: a2 20s linear infinite;
 }
 
@@ -559,7 +559,7 @@ meter::-webkit-meter-optimum-value {
 	border-radius: 100%;
 	box-shadow:-1px -1px 10px #EEEEEE;
 	width: 80%;	
-	
+
 }
 
 .collageHeight
