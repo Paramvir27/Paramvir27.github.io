@@ -2,7 +2,6 @@
 
 .heartContainer
 {
-	height: 400px;
 	background: #000;
 	background:radial-gradient(#151515,#101010);
 	animation: b2 1s linear infinite;
@@ -36,8 +35,8 @@
 	justify-content: center;
 	box-shadow: 0px 0px 0px #FFF;
 	animation-delay: 0.5s;
-	animation: b3 2s linear infinite;
-	
+	animation: b3 2s linear infinite;	
+	transform: scale(0.5);
 }
 
 
@@ -123,4 +122,12 @@
 @media screen and (min-width: 576px)
 {
 
+}
+
+@media screen and (min-width: 992px)
+{
+	.hc
+	{
+		transform: scale(0.7);
+	}
 }
